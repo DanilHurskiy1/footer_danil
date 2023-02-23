@@ -21,8 +21,6 @@ body {
 footer {
 	width: 1441px;
 	height: 621px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
 	display: flex;
 	flex-direction: row;
 }
@@ -42,7 +40,7 @@ p {
 
 /*Medium*/
 .menu {
-	margin: 20px;
+	margin: 36px;
 	font-family: MontserratM;
 	font-size: 16px;	
 }
@@ -53,7 +51,7 @@ p {
 	background: #2E2E3B;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -62,18 +60,6 @@ h2 {
 	color: white;
 	font-family: MontserratS;
 	font-size: 32px;
-}
-
-.svaii1 {
-	display: flex;
-	flex-direction: row;
-	padding-right: 120px;
-}
-
-.svaii2 {
-	display: flex;
-	flex-direction: row;
-	padding-right: 110px;
 }
 
 /*SemiBold*/
@@ -89,5 +75,39 @@ h2 {
 }
 
 .logo {
-	padding-bottom: 60px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.mesenger {
+	width: 285px;
+	height: 47px;
+	display: flex;
+	flex-direction: row;
+}
+
+.tiktok {
+	padding-left: 36px;
+	padding-right: 36px;
+}
+
+.youtube {
+	padding-right: 36px;
+}
+
+.p_regular1 {
+	font-family: MontserratR;
+	font-size: 16px;
+	padding-bottom: 43px;
+}
+
+.number {
+	display: flex;
+	flex-direction: row;
+}
+
+.p_regular2 {
+	font-family: MontserratR;
+	font-size: 16px;
+	padding-left: 50px;
 }
