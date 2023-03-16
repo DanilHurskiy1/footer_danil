@@ -111,3 +111,28 @@ h2 {
 	font-size: 16px;
 	padding-left: 50px;
 }
+
+button {
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.p_regular_green {
+	font-family: MontserratR;
+	font-size: 16px;
+	color: #004941;
+}
+
+.vector {
+	padding-left: 16px;
+}
+
+.white_button {
+	text-decoration: none;
+}
