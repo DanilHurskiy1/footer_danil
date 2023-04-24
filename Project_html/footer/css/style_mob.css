@@ -1,0 +1,60 @@
+@font-face {
+  font-family: MontserratR;
+  src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+
+
+body {
+	width: 100%;
+	height: 10vh;
+	margin: 0;
+}
+
+footer {
+	width: 360px;
+	height: 523px;
+	display: flex;
+	flex-direction: row;
+}
+
+.left_mob {
+	width: 185px;
+	height: 523px;
+	background: #2E2E3B;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 20px 0px 0px 0px;
+}
+
+.logo_mob {
+	width: 161px;
+	height: 75.1px;
+}
+
+.mesenger_mob {
+	width: 104.19px;
+	height: 88px;
+	display: grid;
+  	grid-template-columns: 67px 0px;
+  	grid-auto-rows: 51px;
+}
+
+.p_regular, .p_regular a{
+	font-family: MontserratR;
+	font-size: 16px;
+	color: #F8FCFB;
+	margin: 0;
+	text-decoration: none;
+}
+
+.down {
+	display: grid;
+	grid-auto-rows: 50px;
+	margin-left: 7px;
+}
+
+.txt {
+	margin-left: 7px;
+}

@@ -21,11 +21,16 @@ body {
 
 .back_ground {
   width: 1240px;
-  height: 620px;
+  height: 926.15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.left_place {
+  width: 715.9px;
+  height: 561px;
 }
 
 .h1_bold {
@@ -39,7 +44,7 @@ body {
   height: 514.95px;
 }
 
-.down_place {
+.top_place {
   width: 1240px;
   height: 561px;
   display: flex;
@@ -50,7 +55,7 @@ body {
 
 .right_place {
   width: 524px;
-  height: 466px;
+  height: 502px;
   background: #F0F8F7;
   border-radius: 0px 15px 15px 0px;
   display: flex;
@@ -97,4 +102,64 @@ body {
   position: relative;
   bottom: 130px;
   right: 140px;
+}
+
+.arrows {
+  position: relative;
+  top: 42px;
+}
+
+/*<!-- //// -->*/
+
+.profili-bottom{
+    width: 1240px;
+    height: 303px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 30px;
+}
+.little-img{
+    width: 300px;
+    height: 300px;
+}
+.first-little-img{
+    background-image: url(..//img/Desktop-image11.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-bottom-profili{
+    margin-top: 10%;
+    width: 257px;
+    height: 30px;
+    background: #F8FCFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: MontserratB;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.icons-profili{
+    width: 55%;
+    height: 40px;
+    margin-top: 5%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.icon {
+    width: 45px;
+    height: 45px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
