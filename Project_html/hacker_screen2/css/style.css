@@ -1,0 +1,167 @@
+@font-face {
+  font-family: MontserratS;
+  src: url(../Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: MontserratB;
+  src: url(../Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratM;
+  src: url(../Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: MontserratR;
+  src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.first_page {
+	width: 1308.82px;
+	height: 643.78px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.nastya {
+	width: 673.82px;
+	height: 643.78px;
+}
+
+.biografya {
+	width: 605px;
+	height: 504px;
+	background: #F8FCFB;
+	border-radius: 20px;
+}
+
+.green_regular {
+	width: 509px;
+	height: 79px;
+	background-color: #00715D;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.h1_semibold {
+	font-family: MontserratS;
+	font-size: 48px;
+	color: #F8FCFB;
+	margin: 0;
+	padding: 10px 15px;
+}
+
+.p_semibold {
+	font-family: MontserratS;
+	font-size: 16px;
+}
+
+.p_regular {
+	font-family: MontserratR;
+	font-size: 16px;
+}
+
+.block_1{
+	width: 509px;
+	height: 107px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	position: relative;
+	left: 45px;
+	top: 65px;
+}
+
+.block_2 {
+	width: 481px;
+	height: 172px;
+	position: relative;
+	left: 45px;
+	top: 65px;
+}
+
+.block_3 {
+	width: 400px;
+	height: 40.66px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 32px;
+	position: relative;
+	left: 45px;
+	top: 97px;
+}
+
+.chronology {
+	width: 806px;
+	height: 329px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform: translate(317px, 120px);
+}
+
+.h1_bold {
+	font-family: MontserratB;
+	font-size: 48px;
+	color: #2E2E3B;
+}
+
+.certificates {
+	width: 1244px;
+	height: 1054px;
+	border: 1px solid;
+	transform: translate(101px, 240px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blocks_certificates {
+	width: 1244px;
+	height: 963px;
+	display: flex;
+	flex-direction: row;
+}
+
+.h1_bold_yellow {
+	font-family: MontserratB;
+	font-size: 48px;
+	color: #F99746;
+}
+
+.p_medium {
+	font-family: MontserratM;
+	font-size: 16px;
+	color: #2E2E3B;
+}
+
+.info {
+	width: 615px;
+	height: 348px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 32px;
+	background: #F8FCFB;
+	border-radius: 15px;
+}
